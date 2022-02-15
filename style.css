@@ -1,59 +1,62 @@
 :root {
-    --gw-blue:  #033C5A;
-    --gw-light-blue: #f0faff;
-    --gw-gold: #AA9868;
+	--gw-blue:  #033C5A;
+	--gw-light-blue: #f0faff;
+	--gw-gold: #AA9868;
 }
 
 .bg-navbar{
-    background-color: var(--gw-blue);
+	background-color: var(--gw-blue);
 }
 
 .starter{
-    padding-top: 4rem;
-  text-align: center;
+	padding-top: 4rem;
+	text-align: center;
 }
 
 .content{
-    margin-top: 2rem;
-    padding-top: .5rem;
-    padding-bottom: 1rem;
-    border-left-style: double;
-    border-top-style: dotted;
-    border-radius: 5px;
-    border-color: var(--gw-blue);
-    border-width: medium;
-    border-width: 3px 10px;
-    background-color: var(--gw-light-blue);
-    max-width:1000px;
+	margin-top: 2rem;
+	padding-top: .5rem;
+	padding-bottom: 1rem;
+	border-left-style: double;
+	border-top-style: dotted;
+	border-radius: 5px;
+	border-color: var(--gw-blue);
+	border-width: medium;
+	border-width: 3px 10px;
+	background-color: var(--gw-light-blue);
+	max-width:1000px;
 }
 
 .content h2{
-    padding-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 
 .external-lab{
-   margin-top: 2rem;
-    padding-top: .5rem;
-    padding-bottom: 1rem;
- 
+	margin-top: 2rem;
+	padding-top: .5rem;
+	padding-bottom: 1rem;
 }
 
 .navbar-brand .nav-link a{
-    color: white;
-    link: white;
-    visited:white;
-    hover: var(--gw-gold);
+	color: white;
+	link: white;
+	visited:white;
+	hover: var(--gw-gold);
 }
 
 .img-thubmnail{
-    object-fit: cover;
-    width:200px;
-    height:200px;
+	object-fit: cover;
+	width:200px;
+	height:200px;
+}
+
+.img-wide{
+	max-width: 100%;
+	margin-bottom: .5rem;
 }
 
 .publications li{
-    margin-top: 1rem;
-    padding-top: .25rem;
-    padding-bottom: .25rem;
-    
+	margin-top: 1rem;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
 }
